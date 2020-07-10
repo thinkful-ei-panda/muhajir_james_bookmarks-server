@@ -60,7 +60,7 @@ bookmarksRouter
   .get((req, res) => {
     const { bookmark_id } = req.params;
 
-    const bookmark = store.bookmarks.find(c => c.id == bookmark_id);
+    const bookmark = store.bookmarks.find(b => b.id == bookmark_id);
 
     if (!bookmark) {
 
