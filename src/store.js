@@ -8,7 +8,7 @@ const { v4: uuidv4 } = require('uuid');
 const bookmarks = [
 
   { id: uuidv4(),
-    title: 'Space'
+    title: 'Space',
     url: 'https://www.space.com/',
     description: "Celebrate humanity's ongoing expansion across the final frontier",
     rating: 5 
